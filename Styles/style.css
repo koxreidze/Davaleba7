@@ -1,0 +1,40 @@
+body {
+    background-image: url('../images/footballscene.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 100vh;
+   
+}
+
+.first {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+.second {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    left: 1200px;
+    top: 400px;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 650px;
+    left: 330px;
+    animation: football 7s infinite;
+}
+
+@keyframes football {
+   0% {top: 650px; left: 330px}
+   50% {top: 650px; left: 1150px}
+   75% {top: 300px}
+   100% {top: 650px; left: 330px}
+
+}
